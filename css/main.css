@@ -96,19 +96,65 @@ textarea {
    ========================================================================== */
 body{
     text-align: center;
-    background-color: #f7f7f7;
+    background: url('./../img/bg-wood.jpg');
+    background-size: cover;
     font-family: 'Roboto', 'Helvetica',sans-serif;
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px grey ;
 }
 
-.content{
-    padding: 4em;
+img{
+    max-width: 100%;
+    height: auto;
 }
 
-p{
+
+#skills{
     font-size: 1.5em;
 }
 
+ul li{
+    display: inline-block;
+    width: 76px;
+    height: 76px;
+    text-indent: -999999px;
+    margin-right: 1em;
+}
 
+ul li a{
+    /*background-image: url('http://static.diempi.be/img/sprites.png');*/
+    background-image: url('./../img/whitespritesn.png');
+    display: block;
+    width: 76px;
+    height: 76px;
+
+}
+
+#twitter {
+    background-position: 846px 226px;
+}
+
+#github {
+     background-position: 920px 226px;
+}
+
+#instagram {
+     background-position: 997px 226px;
+}
+
+#twitter:hover {
+    background-position: 846px 151px;
+}
+
+#github:hover {
+     background-position: 920px 151px;
+}
+
+#instagram:hover {
+     background-position: 997px 151px;
+}
 
 
 
